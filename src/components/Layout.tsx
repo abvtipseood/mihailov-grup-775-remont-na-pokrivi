@@ -284,7 +284,7 @@ export default function Layout() {
           <div className="pt-8 border-t border-slate-800 text-sm text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4">
             <p>&copy; {new Date().getFullYear()} Михайлов груп 775. Всички права запазени.</p>
             <p>
-              Изработен от <a href="https://www.estudio.bg" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">estudio.bg</a>
+              Сайта е изработен от <a href="https://www.estudio.bg" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400 transition-colors">estudio.bg</a>
             </p>
           </div>
         </div>
