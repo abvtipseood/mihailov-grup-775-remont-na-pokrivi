@@ -86,15 +86,15 @@ export default function Layout() {
         }`}
       >
         <div className="container mx-auto px-4 md:px-6 flex justify-between items-center max-w-7xl">
-          <Link to="/" className="flex items-center gap-2 cursor-pointer">
-            <div className="bg-orange-600 p-2 rounded-lg">
-              <Hammer className="w-6 h-6 text-white" />
+          <Link to="/" className="flex items-center gap-2 sm:gap-3 cursor-pointer">
+            <div className="bg-orange-600 p-2 rounded-lg shrink-0">
+              <Hammer className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
             </div>
-            <div>
-              <h1 className={`text-xl font-bold leading-tight ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
+            <div className="min-w-0">
+              <h1 className={`text-lg sm:text-xl font-bold leading-none whitespace-nowrap tracking-tight ${isScrolled ? 'text-slate-900' : 'text-white'}`}>
                 Михайлов груп 775
               </h1>
-              <p className={`text-xs font-medium ${isScrolled ? 'text-orange-600' : 'text-orange-400'}`}>
+              <p className={`text-[10px] sm:text-xs font-medium whitespace-nowrap ${isScrolled ? 'text-orange-600' : 'text-orange-400'}`}>
                 Строителство & Ремонти
               </p>
             </div>
